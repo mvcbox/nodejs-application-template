@@ -15,10 +15,10 @@ module.exports = {
         max: 5
     },
     migrations: {
-        directory: path.normalize(`${__dirname}/../interfaces/cli/database/migrations`),
+        directory: path.normalize(`${__dirname}/../database/migrations`),
         tableName: '_knex_migrations',
     },
     seeds: {
-        directory: path.resolve(`${__dirname}/../interfaces/cli/database/seeds`)
+        directory: path.resolve(`${__dirname}/../database/seeds`)
     }
 };

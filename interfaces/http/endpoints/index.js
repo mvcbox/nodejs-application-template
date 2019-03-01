@@ -5,4 +5,4 @@ module.exports = require('express').Router({
     mergeParams: true
 });
 
-module.exports.use('/', require('./endpoints/index/index'));
+module.exports.use('/', require('./index/index'));

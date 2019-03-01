@@ -26,7 +26,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 // Routes
-app.use('/', require('./routes'));
+app.use('/', require('./endpoints/index'));
 
 // Error 404 - page not found
 app.use(function(req, res) {
