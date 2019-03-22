@@ -5,4 +5,4 @@ const route = module.exports = require('express').Router({
     mergeParams: true
 });
 
-route.use('/', require('./home/index'));
+route.get('/', require('./index.get'));
